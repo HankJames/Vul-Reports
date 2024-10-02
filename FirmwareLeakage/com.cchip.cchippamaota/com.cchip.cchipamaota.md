@@ -14,8 +14,6 @@
 
 The `com.cchip.cchipamaota` , developed by Shelly, suffers from an Incorrect Access Control vulnerability during the device firmware update process. The app uses HTTPS requests to download firmware updates. By reverse engineering the app, it was possible to identify the firmware download mechanism and the download link. Dynamic testing revealed that the vendor's firmware server lacks proper access control, leading to **firmware leakage**.
 
-> Although the vendor has discontinued the use of the application, the URL for obtaining firmware has not been deprecated.
-
 ## Reproduction Steps
 
 1. The `URL_GET_3266` String value in the `Constants` class provides the necessary URL and other information required for the HTTP request. Static reverse engineering allows for the reconstruction of the complete request as follows:
