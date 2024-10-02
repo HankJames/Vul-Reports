@@ -2,7 +2,7 @@
 
 **Product:** `com.logitech.ue.ueminiboom` 
 
-**Vendor:** [Logitech Europe S.A.](https://www.logitech.com/en-eu)
+**Vendor:** [Logitech Europe S.A.](https://www.ultimateears.com/)
 
 **Version:** 1.2.29
 
